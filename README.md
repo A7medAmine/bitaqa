@@ -1,6 +1,6 @@
-# id-card-ocr
+# bitaqa
 
-[![tests](https://github.com/AHMEDabdamine/id-card-ocr/actions/workflows/tests.yml/badge.svg)](https://github.com/AHMEDabdamine/id-card-ocr/actions/workflows/tests.yml)
+[![tests](https://github.com/A7medAmine/bitaqa/actions/workflows/tests.yml/badge.svg)](https://github.com/A7medAmine/bitaqa/actions/workflows/tests.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 Extract structured JSON from photos of ID cards, Arabic fields included.
