@@ -1,0 +1,132 @@
+{
+  "name": "dz_id_front",
+  "description": "Algerian biometric national ID card, front side.",
+  "card_size": [
+    856,
+    540
+  ],
+  "fields": {
+    "card_number": {
+      "box": [
+        0.2862,
+        0.2093,
+        0.2044,
+        0.0741
+      ],
+      "type": "digits",
+      "lang": "latin",
+      "pattern": "^\\d{9}$"
+    },
+    "issuing_authority": {
+      "box": [
+        0.5607,
+        0.2519,
+        0.2874,
+        0.0741
+      ],
+      "type": "place",
+      "lang": "arabic"
+    },
+    "issue_date": {
+      "box": [
+        0.6484,
+        0.3185,
+        0.1951,
+        0.0704
+      ],
+      "type": "date",
+      "lang": "latin"
+    },
+    "expiry_date": {
+      "box": [
+        0.6484,
+        0.3889,
+        0.1951,
+        0.0704
+      ],
+      "type": "date",
+      "lang": "latin"
+    },
+    "nin": {
+      "box": [
+        0.4147,
+        0.5556,
+        0.382,
+        0.0778
+      ],
+      "type": "digits",
+      "lang": "latin",
+      "pattern": "^\\d{18}$"
+    },
+    "last_name_ar": {
+      "box": [
+        0.6075,
+        0.6222,
+        0.3096,
+        0.0704
+      ],
+      "type": "name",
+      "lang": "arabic"
+    },
+    "first_name_ar": {
+      "box": [
+        0.6075,
+        0.7259,
+        0.3096,
+        0.0704
+      ],
+      "type": "name",
+      "lang": "arabic"
+    },
+    "birth_date": {
+      "box": [
+        0.6542,
+        0.837,
+        0.2009,
+        0.063
+      ],
+      "type": "date",
+      "lang": "latin"
+    },
+    "sex": {
+      "box": [
+        0.5023,
+        0.8426,
+        0.0794,
+        0.0778
+      ],
+      "type": "sex",
+      "lang": "arabic"
+    },
+    "birth_place_ar": {
+      "box": [
+        0.604,
+        0.8981,
+        0.2664,
+        0.0593
+      ],
+      "type": "place",
+      "lang": "arabic"
+    },
+    "blood_type": {
+      "box": [
+        0.389,
+        0.8426,
+        0.0584,
+        0.0667
+      ],
+      "type": "text",
+      "lang": "latin",
+      "pattern": "^(A|B|AB|O)[+-]$"
+    }
+  },
+  "blank_boxes": [
+    [
+      0.0058,
+      0.3519,
+      0.2921,
+      0.6111
+    ]
+  ],
+  "reference": "dz_id_front_ref.png"
+}

@@ -1,0 +1,9 @@
+opencv-python
+rapidocr
+onnxruntime
+pydantic>=2
+numpy
+pillow
+# only for scripts/make_demo_card.py (drawing Arabic text)
+arabic-reshaper
+python-bidi

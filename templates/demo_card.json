@@ -1,0 +1,16 @@
+{
+  "name": "demo_card",
+  "description": "Layout of the synthetic demo card. Copy this file and re-measure boxes for your own card (see scripts/calibrate.py).",
+  "card_size": [856, 540],
+  "fields": {
+    "id_number":     { "box": [0.34, 0.22, 0.45, 0.08], "type": "digits", "pattern": "^\\d{9}$" },
+    "last_name":     { "box": [0.34, 0.36, 0.30, 0.08], "type": "name" },
+    "last_name_ar":  { "box": [0.66, 0.36, 0.30, 0.08], "type": "name", "lang": "arabic" },
+    "first_name":    { "box": [0.34, 0.50, 0.30, 0.08], "type": "name" },
+    "first_name_ar": { "box": [0.66, 0.50, 0.30, 0.08], "type": "name", "lang": "arabic" },
+    "birth_date":    { "box": [0.34, 0.64, 0.28, 0.08], "type": "date" },
+    "sex":           { "box": [0.66, 0.64, 0.12, 0.08], "type": "sex" },
+    "expiry_date":   { "box": [0.34, 0.78, 0.28, 0.08], "type": "date" },
+    "birth_place_ar":{ "box": [0.66, 0.78, 0.30, 0.08], "type": "name", "lang": "arabic" }
+  }
+}
